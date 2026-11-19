@@ -3,20 +3,21 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Zabbix-7.0%20LTS-0B3A5B" alt="Zabbix 7.0 LTS">
-  <img src="https://img.shields.io/badge/version-0.5.0-2BB5A0" alt="Version 0.5.0">
-  <img src="https://img.shields.io/badge/PHP-8.0%2B-5B7083" alt="PHP 8.0+">
-  <img src="https://img.shields.io/badge/license-AGPL--3.0-5B7083" alt="License AGPL-3.0">
-  <img src="https://img.shields.io/badge/dependencies-none-1F9D55" alt="No dependencies">
+  <img src="docs/images/buttons/badge-zabbix.svg" alt="Zabbix 7.0 LTS">
+  <img src="docs/images/buttons/badge-version.svg" alt="Version 0.5.0">
+  <img src="docs/images/buttons/badge-php.svg" alt="PHP 8.0+">
+  <a href="LICENSE"><img src="docs/images/buttons/badge-license.svg" alt="License AGPL-3.0"></a>
+  <img src="docs/images/buttons/badge-dependencies.svg" alt="No dependencies">
 </p>
 
 <p align="center">
-  <a href="#installation">Installation</a> ·
-  <a href="#creating-a-report">Usage</a> ·
-  <a href="#scheduled-reports">Scheduled reports</a> ·
-  <a href="#how-the-numbers-are-calculated">SLA calculation</a> ·
-  <a href="docs/Report-Pack-User-Guide.pdf">User guide (PDF)</a> ·
-  <a href="docs/Report-Pack-Kullanim-Kilavuzu.pdf">Türkçe kılavuz</a>
+  <a href="#installation"><img src="docs/images/buttons/nav-installation.svg" alt="Installation"></a>
+  <a href="#creating-a-report"><img src="docs/images/buttons/nav-usage.svg" alt="Usage"></a>
+  <a href="#scheduled-reports"><img src="docs/images/buttons/nav-scheduled.svg" alt="Scheduled reports"></a>
+  <a href="#how-the-numbers-are-calculated"><img src="docs/images/buttons/nav-sla.svg" alt="SLA calculation"></a>
+  <br>
+  <a href="docs/Report-Pack-User-Guide.pdf"><img src="docs/images/buttons/nav-guide-en.svg" alt="User guide (PDF)"></a>
+  <a href="docs/Report-Pack-Kullanim-Kilavuzu.pdf"><img src="docs/images/buttons/nav-guide-tr.svg" alt="Türkçe kılavuz (PDF)"></a>
 </p>
 
 ---
@@ -25,25 +26,28 @@
 
 ## Contents
 
-- [Why Report Pack](#why-report-pack)
-- [Features](#features)
-- [Screenshots](#screenshots)
-- [How it works](#how-it-works)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Creating a report](#creating-a-report)
-- [What is in the files](#what-is-in-the-files)
-- [Branding](#branding)
-- [Scheduled reports](#scheduled-reports)
-- [How the numbers are calculated](#how-the-numbers-are-calculated)
-- [Permissions and security](#permissions-and-security)
-- [Proxies, HA and multiple sites](#proxies-ha-and-multiple-sites)
-- [Troubleshooting](#troubleshooting)
-- [FAQ](#faq)
-- [Known limitations](#known-limitations)
-- [Roadmap](#roadmap)
-- [Development and tests](#development-and-tests)
-- [License](#license)
+<p align="center">
+  <a href="#why-report-pack"><img src="docs/images/buttons/toc-01-why-report-pack.svg" alt="Why Report Pack" width="49%"></a>
+  <a href="#features"><img src="docs/images/buttons/toc-02-features.svg" alt="Features" width="49%"></a>
+  <a href="#screenshots"><img src="docs/images/buttons/toc-03-screenshots.svg" alt="Screenshots" width="49%"></a>
+  <a href="#how-it-works"><img src="docs/images/buttons/toc-04-how-it-works.svg" alt="How it works" width="49%"></a>
+  <a href="#requirements"><img src="docs/images/buttons/toc-05-requirements.svg" alt="Requirements" width="49%"></a>
+  <a href="#installation"><img src="docs/images/buttons/toc-06-installation.svg" alt="Installation" width="49%"></a>
+  <a href="#creating-a-report"><img src="docs/images/buttons/toc-07-creating-a-report.svg" alt="Creating a report" width="49%"></a>
+  <a href="#what-is-in-the-files"><img src="docs/images/buttons/toc-08-what-is-in-the-files.svg" alt="What is in the files" width="49%"></a>
+  <a href="#branding"><img src="docs/images/buttons/toc-09-branding.svg" alt="Branding" width="49%"></a>
+  <a href="#scheduled-reports"><img src="docs/images/buttons/toc-10-scheduled-reports.svg" alt="Scheduled reports" width="49%"></a>
+  <a href="#how-the-numbers-are-calculated"><img src="docs/images/buttons/toc-11-how-the-numbers-are-calculated.svg" alt="How the numbers are calculated" width="49%"></a>
+  <a href="#permissions-and-security"><img src="docs/images/buttons/toc-12-permissions-and-security.svg" alt="Permissions and security" width="49%"></a>
+  <a href="#proxies-ha-and-multiple-sites"><img src="docs/images/buttons/toc-13-proxies-ha-and-multiple-sites.svg" alt="Proxies, HA and multiple sites" width="49%"></a>
+  <a href="#troubleshooting"><img src="docs/images/buttons/toc-14-troubleshooting.svg" alt="Troubleshooting" width="49%"></a>
+  <a href="#faq"><img src="docs/images/buttons/toc-15-faq.svg" alt="FAQ" width="49%"></a>
+  <a href="#known-limitations"><img src="docs/images/buttons/toc-16-known-limitations.svg" alt="Known limitations" width="49%"></a>
+  <a href="#roadmap"><img src="docs/images/buttons/toc-17-roadmap.svg" alt="Roadmap" width="49%"></a>
+  <a href="#development-and-tests"><img src="docs/images/buttons/toc-18-development-and-tests.svg" alt="Development and tests" width="49%"></a>
+  <a href="#changelog"><img src="docs/images/buttons/toc-19-changelog.svg" alt="Changelog" width="49%"></a>
+  <a href="#license"><img src="docs/images/buttons/toc-20-license.svg" alt="License" width="49%"></a>
+</p>
 
 ## Why Report Pack
 
@@ -367,6 +371,7 @@ ReportPack/            the module (copy this folder into Zabbix)
   bin/                 the scheduled-report sender and its example settings
 tests/                 tests that run without Zabbix
 docs/                  user guides, sample reports, images
+tools/make_buttons.py  draws the README badges, buttons and contents cards
 ```
 
 ```sh
