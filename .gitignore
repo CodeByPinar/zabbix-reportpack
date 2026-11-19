@@ -1,0 +1,15 @@
+# Local settings and runner state: may hold an API token or a mail password.
+*.ini
+!ReportPack/bin/reportpack.ini.example
+state.json
+reportpack-state.json
+
+# Test output and local fonts
+tests/fixtures/*.ttf
+/out/
+
+# Editors and OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

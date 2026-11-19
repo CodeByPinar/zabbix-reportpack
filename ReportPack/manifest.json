@@ -1,0 +1,53 @@
+{
+    "manifest_version": 2.0,
+    "id": "reportpack",
+    "name": "Report Pack",
+    "version": "0.5.0",
+    "namespace": "ReportPack",
+    "description": "Availability and problem reports for host groups, ready to hand to managers and customers: branded PDF, Excel and CSV export.",
+    "actions": {
+        "reportpack.view": {
+            "class": "ReportView",
+            "view": "reportpack.view"
+        },
+        "reportpack.csv": {
+            "class": "ReportView",
+            "view": "reportpack.csv",
+            "layout": "layout.csv"
+        },
+        "reportpack.pdf": {
+            "class": "ReportView",
+            "view": "reportpack.pdf",
+            "layout": "reportpack.layout.pdf"
+        },
+        "reportpack.xlsx": {
+            "class": "ReportView",
+            "view": "reportpack.xlsx",
+            "layout": "reportpack.layout.xlsx"
+        },
+        "reportpack.branding": {
+            "class": "BrandingView",
+            "view": "reportpack.branding"
+        },
+        "reportpack.branding.update": {
+            "class": "BrandingUpdate"
+        },
+        "reportpack.schedules": {
+            "class": "ScheduleList",
+            "view": "reportpack.schedules"
+        },
+        "reportpack.schedule.edit": {
+            "class": "ScheduleEdit",
+            "view": "reportpack.schedule.edit"
+        },
+        "reportpack.schedule.update": {
+            "class": "ScheduleUpdate"
+        }
+    },
+    "config": {
+        "company": "",
+        "accent": "#0B3A5B",
+        "footer": "",
+        "schedules": []
+    }
+}

@@ -1,0 +1,29 @@
+; Report Pack runner settings. Copy to /etc/zabbix/reportpack.ini and keep it readable only by the
+; user cron runs as (chmod 600): it contains an API token and possibly a mail password.
+
+[zabbix]
+; Address of the Zabbix web interface.
+url = https://zabbix.example.com/
+; API token of a Super admin user (User settings > API tokens). Needed to read the schedules.
+token = 0000000000000000000000000000000000000000000000000000000000000000
+; Set to no only for a test server with a self-signed certificate.
+verify_tls = yes
+
+[smtp]
+host = mail.example.com
+; 25 (none), 587 (starttls) or 465 (ssl)
+port = 587
+security = starttls
+username = reports@example.com
+password = "change me"
+from = reports@example.com
+from_name = Zabbix reports
+verify_tls = yes
+
+[runner]
+; Remembers when each schedule was last sent.
+state_file = /var/lib/zabbix/reportpack-state.json
+; Time zone for schedule times and report periods; empty = the system time zone.
+timezone =
+; DejaVu Sans font for PDFs; empty = found automatically in the usual places.
+font =

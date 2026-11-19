@@ -1,0 +1,64 @@
+[
+ {
+  "name": "rgba8",
+  "alpha": true,
+  "readable": true
+ },
+ {
+  "name": "rgb8",
+  "alpha": false,
+  "readable": true
+ },
+ {
+  "name": "gray8",
+  "alpha": false,
+  "readable": true
+ },
+ {
+  "name": "graya8",
+  "alpha": true,
+  "readable": true
+ },
+ {
+  "name": "palette4bit",
+  "alpha": false,
+  "readable": true
+ },
+ {
+  "name": "palette_trns",
+  "alpha": true,
+  "readable": true
+ },
+ {
+  "name": "bilevel",
+  "alpha": false,
+  "readable": true
+ },
+ {
+  "name": "rgb_trns",
+  "alpha": true,
+  "readable": true
+ },
+ {
+  "name": "gray16",
+  "alpha": false,
+  "readable": true
+ },
+ {
+  "name": "filters",
+  "alpha": true,
+  "readable": true
+ },
+ {
+  "name": "interlaced",
+  "readable": false
+ },
+ {
+  "name": "truncated",
+  "readable": false
+ },
+ {
+  "name": "notpng",
+  "readable": false
+ }
+]
