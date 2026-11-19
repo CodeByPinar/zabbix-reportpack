@@ -3,11 +3,11 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/buttons/badge-zabbix.svg" alt="Zabbix 7.0 LTS">
-  <img src="docs/images/buttons/badge-version.svg" alt="Version 0.5.0">
-  <img src="docs/images/buttons/badge-php.svg" alt="PHP 8.0+">
+  <a href="#requirements"><img src="docs/images/buttons/badge-zabbix.svg" alt="Zabbix 7.0 LTS"></a>
+  <a href="CHANGELOG.md"><img src="docs/images/buttons/badge-version.svg" alt="Version 0.5.0"></a>
+  <a href="#requirements"><img src="docs/images/buttons/badge-php.svg" alt="PHP 8.0+"></a>
   <a href="LICENSE"><img src="docs/images/buttons/badge-license.svg" alt="License AGPL-3.0"></a>
-  <img src="docs/images/buttons/badge-dependencies.svg" alt="No dependencies">
+  <a href="#features"><img src="docs/images/buttons/badge-dependencies.svg" alt="No dependencies"></a>
 </p>
 
 <p align="center">
